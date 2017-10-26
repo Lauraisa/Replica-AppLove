@@ -84,8 +84,8 @@ li {
 }
 
 .image {
+  background-size: 100%; /*o puede ser background-size: cover */
   background-image: url(../assets/images/bg-home.jpg);
-  width: 100%;
   height: 500px;
   color: white;
   box-sizing: border-box;
@@ -104,21 +104,14 @@ padding-top: 3rem
 .fondo {
   background: #f17c72;
 }
-/*.ima {
-  background-image: url(../assets/images/services-1.png);
-  width: 250px;
-  height: 200px;
-  display: inline-block;
+
+/* section 2*/
+.fondo {
+  background: #f17c72;
 }
 
-.ima2 {
-  background-image: url(../assets/images/services-2.png);
-  width: 250px;
-  height: 200px;
-  display: inline-block;
-}
-.ima3 {
-  background-image: url(../assets/images/services-3.png);
+div {
+  box-sizing: border-box;
   display: inline-block;
 
-}*/
+}
