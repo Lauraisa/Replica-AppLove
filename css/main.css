@@ -71,6 +71,13 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 /*Se trabaja el header utilizando lista*/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-color: rgb(255, 255, 255);
+}
 li {
   list-style: none;
   margin-left: 4rem;
@@ -86,29 +93,44 @@ li {
 .image {
   background-size: 100%; /*o puede ser background-size: cover */
   background-image: url(../assets/images/bg-home.jpg);
+  margin-top: 80px;
   height: 500px;
   color: white;
   box-sizing: border-box;
-
+  text-align: center;
+  padding-top: 3rem
 }
-.text {
-text-align: center;
-padding-top: 3rem
 
+/* section 2*/
+section.fondo {
+  background: #f17c72;
+  text-align: center;
+  color:  rgb(240, 246, 243);
 }
- h1 {
-  font-size: 2rem;
+
+ .ima {
+   display: inline-block;
+   padding-right:  6rem;
  }
-
-/* section 2*/
-.fondo {
-  background: #f17c72;
+ .ima2 {
+   display: inline-block;
+   padding-right:  6rem;
+ }
+.ima3 {
+  display: inline-block;
+}
+h2 {
+  font-size:2rem;
+}
+h5 {
+  color: rgb(240, 246, 243);
+}
+h6 {
+  color: rgb(240, 246, 243);
 }
 
-/* section 2*/
-.fondo {
-  background: #f17c72;
-}
+/* section 3*/
+
 
 div {
   box-sizing: border-box;
