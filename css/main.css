@@ -72,7 +72,7 @@ a:hover {
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 /*Se trabaja el header utilizando lista*/
 header {
-  position: fixed;
+  margin-bottom: 0;
   top: 0;
   width: 100%;
 
@@ -81,24 +81,41 @@ header {
 li {
   list-style: none;
   margin-left: 4rem;
-  line-height: 3rem;
+  line-height: 5rem;
   float: left;
 }
-/* utilizamos el float para desplazar el icono*/
+/* desplazando logo*/
+
 .logo {
-  float: right;
-  left: 40rem;
+  margin-left: 30rem;
 }
 
+/* section 1*/
 .image {
   background-size: 100%; /*o puede ser background-size: cover */
   background-image: url(../assets/images/bg-home.jpg);
-  margin-top: 80px;
   height: 500px;
   color: white;
   box-sizing: border-box;
   text-align: center;
-  padding-top: 3rem
+  padding-top: 3rem;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 4rem;
+}
+.subtitle h2 {
+margin: 0;
+padding: 0;
+}
+.botton  {
+  padding: 1rem;
+  background-color: #2ECC71;
+  color: white;
+}
+.paragraphs {
+ margin-bottom: 4rem; 
 }
 
 /* section 2*/
@@ -106,34 +123,87 @@ section.fondo {
   background: #f17c72;
   text-align: center;
   color:  rgb(240, 246, 243);
+  
 }
 
  .ima {
    display: inline-block;
-   padding-right:  6rem;
+   padding-right:  5rem;
+   padding-top: 3rem; 
+   margin-left: 6rem;
+   margin-bottom: 5rem; 
+ 
  }
- .ima2 {
-   display: inline-block;
-   padding-right:  6rem;
- }
-.ima3 {
-  display: inline-block;
-}
-h2 {
+ 
+
+h2.title  {
   font-size:2rem;
+  margin-top: 5rem;
 }
+
 h5 {
   color: rgb(240, 246, 243);
+  margin: 5px 2px;
+  padding-top: 1rem;
 }
 h6 {
   color: rgb(240, 246, 243);
+  margin: 0 0;
 }
+div.section  {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
 
 /* section 3*/
 
-
-div {
-  box-sizing: border-box;
-  display: inline-block;
-
+section.fondo1 {
+  background: white;
+  text-align:  center;
+  font-size: 2rem;
+  margin-bottom: 6rem;
 }
+
+h2 {
+  margin-bottom: -1rem; 
+  padding-bottom: -1rem;
+}
+h4 {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+ .boxis {
+  margin-left: 3rem;
+  margin-right: 4rem;
+  margin-top: 0;
+  padding: 0;
+  padding-left: 2rem;
+  }
+  div {
+    box-sizing: border-box;
+    display: inline-block;
+   
+  }
+
+ p {
+   font-size: 1rem;
+   text-align: center
+  }
+
+
+/* footer*/  
+
+.footer {
+  background: #373B47;
+  padding: 0.5rem;
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 0;
+  
+ }
+ .span p {
+  color: white;
+  font-size: 20px;
+ 
+ }
